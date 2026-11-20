@@ -1,0 +1,10 @@
+# repo|file|sha256  - read by scripts/windows/getmodels.ps1. SHA256 values as verified on 2026-11-12.
+# The served pair: the model (bartowski Q4_K_M) and NVIDIA's DFlash drafter.
+bartowski/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF|NVIDIA-Nemotron-3.5-Bolt-E4B-Q4_K_M.gguf|5f0f982d11bc1408783d13e4440b06e6c1e989024ac26f9a2999cb4c496bedcc
+nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-DFlash|Nemotron-3.5-Bolt-E4B-DFlash-BF16.gguf|8103aa42fd31fb661c3fbe8701d04d698ea2c5d09351dc3e8c9da639958de989
+# Optional, only for repeating the quant A/B (results/quant-ab.md):
+# bartowski/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF|NVIDIA-Nemotron-3.5-Bolt-E4B-Q6_K.gguf|e372a90ea52b410fcd782a5a91caccb081f77389965dd7aae3620482760e1e98
+# bartowski/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF|NVIDIA-Nemotron-3.5-Bolt-E4B-Q5_K_M.gguf|58e25be8678a32cc28d9f31400d41759ee1f1cdd24e7133d87f49a7089a654d7
+# bartowski/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF|NVIDIA-Nemotron-3.5-Bolt-E4B-IQ4_XS.gguf|7874aa84419f61b3ced4cbe762a171ccc3d2930381bf58fd0685dde888e89d46
+# bartowski/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF|NVIDIA-Nemotron-3.5-Bolt-E4B-Q4_0.gguf|576045a32183bd9945ecf4b7b007592da8eaa9f277beb7de566101571b1b6628
+# nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB|Nemotron-3.5-Bolt-E4B-Q4_K_M.gguf|c8af2b8aea10a690a1d9491db744a9446660173cb38fc489612b556615a69612

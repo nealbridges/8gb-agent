@@ -1,0 +1,11 @@
+# Provider snippet for omp (~/.omp/agent/models.yml, under "providers:"). Replace YOUR-BOX.
+# llama-server has no auth; keep it on a private network (see docs/03-remote-access.md).
+  my-gpu-box:
+    baseUrl: http://YOUR-BOX:8080/v1
+    auth: none
+    api: openai-completions
+    models:
+      - id: nemotron-bolt-e4b          # matches --alias in the agent profile
+        name: Nemotron-3.5-Bolt-E4B Q4_K_M + DFlash (8 GB, 32K)
+        contextWindow: 32768
+        maxTokens: 8192
